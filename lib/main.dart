@@ -427,7 +427,7 @@ class SheetContainer extends StatelessWidget {
               scrollDirection: Axis.horizontal,
               itemCount: currentCar.features.length,
               itemBuilder: (context, index) {
-                return ListItem(cd
+                return ListItem(
                   sheetItemHeight: sheetItemHeight,
                   mapVal: currentCar.features[index],
                 );
